@@ -56,6 +56,9 @@
 		026DC8F623A17133008C5DB0 /* The Coin Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				026DC90D23A1714C008C5DB0 /* Model */,
+				026DC90C23A17149008C5DB0 /* View */,
+				026DC90B23A17146008C5DB0 /* Controller */,
 				026DC8F723A17133008C5DB0 /* AppDelegate.swift */,
 				026DC8F923A17133008C5DB0 /* SceneDelegate.swift */,
 				026DC8FB23A17133008C5DB0 /* ViewController.swift */,
@@ -65,6 +68,27 @@
 				026DC90523A17136008C5DB0 /* Info.plist */,
 			);
 			path = "The Coin Tracker";
+			sourceTree = "<group>";
+		};
+		026DC90B23A17146008C5DB0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		026DC90C23A17149008C5DB0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		026DC90D23A1714C008C5DB0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
