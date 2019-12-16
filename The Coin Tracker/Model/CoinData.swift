@@ -14,6 +14,7 @@ struct CoinData: Decodable {
     let averages: Averages
     let changes: Changes
     let volume: Double
+    let display_timestamp: String
 }
 
 struct Open: Decodable {
