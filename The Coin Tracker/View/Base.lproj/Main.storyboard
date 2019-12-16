@@ -28,10 +28,16 @@
                                 <rect key="frame" x="363.66666666666669" y="48" width="17.666666666666686" height="22"/>
                                 <color key="tintColor" red="1" green="0.99997597930000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" image="arrow.clockwise" catalog="system"/>
+                                <connections>
+                                    <action selector="refreshButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X33-uC-4RK"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A3H-Ep-TTi">
-                                <rect key="frame" x="341" y="823" width="40" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A3H-Ep-TTi">
+                                <rect key="frame" x="341" y="790" width="40" height="39"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="JuH-uX-Dyu"/>
+                                    <constraint firstAttribute="width" constant="40" id="LAn-7b-bF3"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="tintColor" red="1" green="0.99997597930000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" backgroundImage="plus.circle" catalog="system"/>
@@ -309,6 +315,7 @@
                             <constraint firstItem="xw6-fg-EY2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="20s-Ca-mg8"/>
                             <constraint firstItem="0Br-1M-yUG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="3oC-qz-jsJ"/>
                             <constraint firstItem="A60-80-M8Q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="4KN-xs-kke"/>
+                            <constraint firstItem="A3H-Ep-TTi" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-33" id="53R-X6-0ws"/>
                             <constraint firstItem="sB7-8W-NZ1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7f4-1F-KDp"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2Hq-TI-c7O" secondAttribute="trailing" constant="19" id="EJL-al-Icb"/>
                             <constraint firstItem="xw6-fg-EY2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="48" id="Hwn-F1-fyb"/>
@@ -319,6 +326,7 @@
                             <constraint firstItem="Qwl-22-zDe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Smq-3z-lvB"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bz6-OC-Ce8" secondAttribute="trailing" constant="39.329999999999998" id="UII-hS-U16"/>
                             <constraint firstItem="sB7-8W-NZ1" firstAttribute="top" secondItem="FpS-DW-93y" secondAttribute="bottom" constant="66.670000000000002" id="UTD-LZ-Oxw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="A3H-Ep-TTi" secondAttribute="trailing" constant="33" id="VcL-cQ-RFY"/>
                             <constraint firstItem="q98-qW-dWn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="4" id="WHT-Pj-Ad2"/>
                             <constraint firstItem="2Hq-TI-c7O" firstAttribute="top" secondItem="q98-qW-dWn" secondAttribute="bottom" constant="149.66999999999999" id="fOK-Ak-cd5"/>
                             <constraint firstItem="bz6-OC-Ce8" firstAttribute="top" secondItem="2Hq-TI-c7O" secondAttribute="bottom" constant="31" id="gsp-bH-Zf8"/>

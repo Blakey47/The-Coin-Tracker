@@ -54,7 +54,13 @@ class ViewController: UIViewController {
     func setupPickerView() {
         menuView.layer.cornerRadius = 30
     }
-
+    
+    @IBAction func refreshButtonPressed(_ sender: Any) {
+        if let currency = self.currenySymbol.text {
+            coinManager.getCoinPrice(for: currency)
+        }
+    }
+    
     @IBAction func toggleMenuButton(_ sender: Any) {
         if menuView.transform == .identity {
             UIView.animate(withDuration: 1, animations: {
